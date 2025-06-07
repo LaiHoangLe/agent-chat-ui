@@ -127,7 +127,7 @@ function ResponseComponent({
         <p className="min-w-fit text-sm font-medium">Response</p>
         <Textarea
           disabled={streaming}
-          value={res.args + '11111111111111111111111111111111111'}
+          value={res.args}
           onChange={(e) => onResponseChange(e.target.value, res)}
           onKeyDown={handleKeyDown}
           rows={4}
