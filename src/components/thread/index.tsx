@@ -64,7 +64,7 @@ function StickyToBottomContent(props: {
         ref={context.contentRef}
         className={props.contentClassName}
       >
-        {props.content + '11111111111111'}
+        {props.content}
       </div>
 
       {props.footer}
